@@ -13,7 +13,7 @@ variable "assume_role" {
   })
 
   default = {
-    arn    = "<YOUR_ROLE_ARN>"
+    arn    = "arn:aws:iam::631918221338:role/workshop-march-role"
     region = "us-east-1"
   }
 }
