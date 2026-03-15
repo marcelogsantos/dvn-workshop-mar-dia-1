@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket       = "<YOUR-BUCKET-NAME>"
+    bucket       = "workshop-march-state-gomes"
     key          = "networking/terraform.tfstate"
     region       = "us-east-1"
     use_lockfile = true
